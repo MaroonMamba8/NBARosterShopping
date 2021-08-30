@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping Cart</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="https://checkout.stripe.com/checkout.js" defer></script>
+        <script>
+            var stripePublicKey = '<%= stripePublicKey %>'
+        </script>
+        <script src="store.js" defer></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="explanation.html">EXPLANATION</a></li>
+                    <li><a href="shoppingcart">SHOPPING CART</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">NBA Roster Shopping</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">POINT GUARDS</h2>
+            <div class="shop-items">
+                <% items.pointguards.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <span class="shop-item-skills"><%= item.skills %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">SHOOTING GUARDS</h2>
+            <div class="shop-items">
+                <% items.shootingguards.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <span class="shop-item-skills"><%= item.skills %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">SMALL FORWARDS</h2>
+            <div class="shop-items">
+                <% items.smallforwards.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <span class="shop-item-skills"><%= item.skills %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">POWER FORWARDS</h2>
+            <div class="shop-items">
+                <% items.powerforwards.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <span class="shop-item-skills"><%= item.skills %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">CENTERS</h2>
+            <div class="shop-items">
+                <% items.centers.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <span class="shop-item-skills"><%= item.skills %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-evaluate" role="button">EVALUATE ROSTER</button>
+            <button class="btn btn-primary btn-purchase" role="button">PURCHASE ROSTER</button>
+        </section>
+
+        <section class="container content-section evaluateMessage" id = "evaluateMessage">
+            <span class="cart-total-skills"></span>
+            <div evaluateMessageText></div>
+            <button class="btn btn-primary btn-clear" role="button">CLEAR EVALUATE</button>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Related Websites</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC_k0qgMNIW2VmTQKjFsbXDw" target="_blank">
+                            <img src="Images/flight.png" width="200" height="200">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCY4AlDv6wL2qhrX29iwdqAg" target="_blank">
+                            <img src="Images/2hype.png" width="200" height="200">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.wnba.com" target="_blank">
+                            <img src="Images/wnba.png" width="200" height="200">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

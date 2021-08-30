@@ -1,0 +1,712 @@
+{
+    "pointguards": [
+        {
+            "id": 1,
+            "name": "Stephen Curry",
+            "price": 2800,
+            "imgName": "2kcurry.png",
+            "skills": [0.6,1.0,0.6,0.3,0.4,0.9]
+        },
+        {
+            "id": 2,
+            "name": "Damian Lillard",
+            "price": 2500,
+            "imgName": "2klillard.png",
+            "skills": [0.7,0.8,0.6,0.3,0.3,0.8]
+        },
+        {
+            "id": 3,
+            "name": "Luka Doncic",
+            "price": 2400,
+            "imgName": "2kdoncic.png",
+            "skills": [0.9,0.5,0.7,0.4,0.7,0.8]
+        },
+        {
+            "id": 4,
+            "name": "Kyrie Irving",
+            "price": 2300,
+            "imgName": "2kirving.png",
+            "skills": [0.7,0.9,0.7,0.3,0.3,0.6]
+        },
+        {
+            "id": 5,
+            "name": "Chris Paul",
+            "price": 2300,
+            "imgName": "2kpaul.png",
+            "skills": [0.9,0.7,0.7,0.3,0.6,0.9]
+        },
+        {
+            "id": 6,
+            "name": "Russell Westbrook",
+            "price": 2300,
+            "imgName": "2kwestbrook.png",
+            "skills": [0.8,0.3,0.7,0.7,0.4,0.7]
+        },
+        {
+            "id": 7,
+            "name": "Ben Simmons",
+            "price": 2200,
+            "imgName": "2ksimmons.png",
+            "skills": [0.8,0.1,0.7,0.7,0.8,0.5]
+        },
+        {
+            "id": 8,
+            "name": "Trae Young",
+            "price": 2100,
+            "imgName": "2kyoung.png",
+            "skills": [0.8,0.6,0.7,0.3,0.2,0.6]
+        },
+        {
+            "id": 9,
+            "name": "Jrue Holiday",
+            "price": 1900,
+            "imgName": "2kholiday.png",
+            "skills": [0.6,0.7,0.6,0.3,0.8,0.7]
+        },
+        {
+            "id": 10,
+            "name": "Jamal Murray",
+            "price": 1900,
+            "imgName": "2kmurray.png",
+            "skills": [0.5,0.7,0.7,0.3,0.4,0.8]
+        },
+        {
+            "id": 11,
+            "name": "Ja Morant",
+            "price": 1900,
+            "imgName": "2kmorant.png",
+            "skills": [0.7,0.4,0.6,0.3,0.3,0.7]
+        },
+        {
+            "id": 12,
+            "name": "De'Aaron Fox",
+            "price": 1800,
+            "imgName": "2kfox.png",
+            "skills": [0.7,0.3,0.7,0.3,0.3,0.5]
+        },
+        {
+            "id": 13,
+            "name": "Mike Conley",
+            "price": 1700,
+            "imgName": "2kconley.png",
+            "skills": [0.6,0.7,0.5,0.3,0.5,0.6]
+        },
+        {
+            "id": 14,
+            "name": "Kyle Lowry",
+            "price": 1700,
+            "imgName": "2klowry.png",
+            "skills": [0.7,0.7,0.5,0.4,0.4,0.8]
+        },
+        {
+            "id": 15,
+            "name": "LaMelo Ball",
+            "price": 1600,
+            "imgName": "2kball.png",
+            "skills": [0.6,0.5,0.6,0.6,0.5,0.6]
+        },
+        {
+            "id": 16,
+            "name": "Collin Sexton",
+            "price": 1600,
+            "imgName": "2ksexton.png",
+            "skills": [0.4,0.6,0.7,0.3,0.2,0.4]
+        },
+        {
+            "id": 17,
+            "name": "Kemba Walker",
+            "price": 1600,
+            "imgName": "2kwalker.png",
+            "skills": [0.5,0.7,0.5,0.3,0.4,0.6]
+        },
+        {
+            "id": 18,
+            "name": "D'Angelo Russell",
+            "price": 1600,
+            "imgName": "2krussell.png",
+            "skills": [0.6,0.6,0.4,0.2,0.3,0.7]
+        },
+        {
+            "id": 19,
+            "name": "Malcolm Brogdon",
+            "price": 1500,
+            "imgName": "2kbrogdon.png",
+            "skills": [0.6,0.6,0.6,0.4,0.3,0.4]
+        },
+        {
+            "id": 20,
+            "name": "Dennis Schroder",
+            "price": 1500,
+            "imgName": "2kschroder.png",
+            "skills": [0.6,0.5,0.5,0.4,0.4,0.5]
+        }
+    ],
+    "shootingguards": [
+        {
+            "id": 101,
+            "name": "James Harden",
+            "price": 2700,
+            "imgName": "2kharden.png",
+            "skills": [0.8,0.8,0.6,0.7,0.4,0.7]
+        },
+        {
+            "id": 102,
+            "name": "Bradley Beal",
+            "price": 2300,
+            "imgName": "2kbeal.png",
+            "skills": [0.5,0.7,0.7,0.4,0.3,0.6]
+        },
+        {
+            "id": 103,
+            "name": "Donovan Mitchell",
+            "price": 2100,
+            "imgName": "2kmitchell.png",
+            "skills": [0.5,0.8,0.6,0.4,0.4,0.8]
+        },
+        {
+            "id": 104,
+            "name": "Zach LaVine",
+            "price": 2100,
+            "imgName": "2klavine.png",
+            "skills": [0.5,0.8,0.7,0.4,0.3,0.5]
+        },
+        {
+            "id": 105,
+            "name": "Devin Booker",
+            "price": 2100,
+            "imgName": "2kbooker.png",
+            "skills": [0.4,0.5,0.8,0.4,0.3,0.6]
+        },
+        {
+            "id": 106,
+            "name": "Klay Thompson",
+            "price": 2000,
+            "imgName": "2kthompson.png",
+            "skills": [0.3,0.9,0.6,0.4,0.4,0.5]
+        },
+        {
+            "id": 107,
+            "name": "Paul George",
+            "price": 2000,
+            "imgName": "2kgeorge.png",
+            "skills": [0.5,0.8,0.7,0.6,0.6,0.5]
+        },
+        {
+            "id": 108,
+            "name": "Jaylen Brown",
+            "price": 1900,
+            "imgName": "2kbrown.png",
+            "skills": [0.4,0.7,0.8,0.5,0.4,0.5]
+        },
+        {
+            "id": 109,
+            "name": "CJ McCollum",
+            "price": 1700,
+            "imgName": "2kmccollum.png",
+            "skills": [0.5,0.7,0.7,0.5,0.3,0.5]
+        },
+        {
+            "id": 110,
+            "name": "Shai Gilgeous-Alexander",
+            "price": 1600,
+            "imgName": "2kgilgeous.png",
+            "skills": [0.6,0.7,0.8,0.5,0.5,0.4]
+        },
+        {
+            "id": 111,
+            "name": "Evan Fournier",
+            "price": 1600,
+            "imgName": "2kfournier.png",
+            "skills": [0.4,0.7,0.6,0.4,0.5,0.6]
+        },
+        {
+            "id": 112,
+            "name": "Fred VanVleet",
+            "price": 1500,
+            "imgName": "2kvanvleet.png",
+            "skills": [0.6,0.7,0.4,0.5,0.6,0.6]
+        },
+        {
+            "id": 113,
+            "name": "Terry Rozier",
+            "price": 1500,
+            "imgName": "2krozier.png",
+            "skills": [0.5,0.7,0.7,0.4,0.4,0.4]
+        },
+        {
+            "id": 114,
+            "name": "Bogdan Bogdanovic",
+            "price": 1400,
+            "imgName": "2kbogdanovic.png",
+            "skills": [0.4,0.8,0.7,0.4,0.5,0.5]
+        },
+        {
+            "id": 115,
+            "name": "Buddy Hield",
+            "price": 1400,
+            "imgName": "2khield.png",
+            "skills": [0.4,0.8,0.5,0.5,0.3,0.4]
+        },
+        {
+            "id": 116,
+            "name": "Caris Levert",
+            "price": 1400,
+            "imgName": "2klevert.png",
+            "skills": [0.5,0.4,0.7,0.5,0.5,0.5]
+        },
+        {
+            "id": 117,
+            "name": "Duncan Robinson",
+            "price": 1200,
+            "imgName": "2krobinson.png",
+            "skills": [0.2,0.9,0.2,0.4,0.4,0.5]
+        },
+        {
+            "id": 118,
+            "name": "Seth Curry",
+            "price": 1200,
+            "imgName": "2kcurryseth.png",
+            "skills": [0.3,0.9,0.5,0.3,0.4,0.5]
+        },
+        {
+            "id": 119,
+            "name": "Joe Ingles",
+            "price": 1200,
+            "imgName": "2kingles.png",
+            "skills": [0.5,0.8,0.5,0.4,0.6,0.6]
+        },
+        {
+            "id": 120,
+            "name": "Lou Williams",
+            "price": 1100,
+            "imgName": "2kwilliams.png",
+            "skills": [0.4,0.7,0.3,0.3,0.2,0.7]
+        }
+    ],
+    "smallforwards": [
+        {
+            "id": 201,
+            "name": "LeBron James",
+            "price": 2600,
+            "imgName": "2kjames.png",
+            "skills": [0.9,0.6,0.9,0.8,0.6,1.0]
+        },
+        {
+            "id": 202,
+            "name": "Kawhi Leonard",
+            "price": 2500,
+            "imgName": "2kleonard.png",
+            "skills": [0.6,0.7,0.8,0.6,0.7,0.6]
+        },
+        {
+            "id": 203,
+            "name": "Jimmy Butler",
+            "price": 2300,
+            "imgName": "2kbutler.png",
+            "skills": [0.7,0.3,0.8,0.6,0.8,0.8]
+        },
+        {
+            "id": 204,
+            "name": "Jayson Tatum",
+            "price": 2300,
+            "imgName": "2ktatum.png",
+            "skills": [0.5,0.7,0.8,0.6,0.6,0.6]
+        },
+        {
+            "id": 205,
+            "name": "Khris Middleton",
+            "price": 2000,
+            "imgName": "2kmiddleton.png",
+            "skills": [0.5,0.7,0.6,0.6,0.5,0.6]
+        },
+        {
+            "id": 206,
+            "name": "Brandon Ingram",
+            "price": 1900,
+            "imgName": "2kingram.png",
+            "skills": [0.5,0.7,0.8,0.5,0.3,0.5]
+        },
+        {
+            "id": 207,
+            "name": "Michael Porter Jr.",
+            "price": 1800,
+            "imgName": "2kporter.jr.png",
+            "skills": [0.2,0.8,0.8,0.7,0.4,0.5]
+        },
+        {
+            "id": 208,
+            "name": "Jerami Grant",
+            "price": 1800,
+            "imgName": "2kgrant.png",
+            "skills": [0.3,0.5,0.6,0.5,0.4,0.5]
+        },
+        {
+            "id": 209,
+            "name": "Gordon Hayward",
+            "price": 1700,
+            "imgName": "2khayward.png",
+            "skills": [0.4,0.7,0.6,0.6,0.5,0.6]
+        },
+        {
+            "id": 210,
+            "name": "DeMar DeRozan",
+            "price": 1700,
+            "imgName": "2kderozan.png",
+            "skills": [0.6,0.3,0.8,0.5,0.4,0.5]
+        },
+        {
+            "id": 211,
+            "name": "Norman Powell",
+            "price": 1500,
+            "imgName": "2kpowell.png",
+            "skills": [0.2,0.7,0.5,0.4,0.5,0.5]
+        },
+        {
+            "id": 212,
+            "name": "Tim Hardaway Jr.",
+            "price": 1500,
+            "imgName": "2khardaway.png",
+            "skills": [0.2,0.7,0.6,0.4,0.3,0.4]
+        },
+        {
+            "id": 213,
+            "name": "De'Andre Hunter",
+            "price": 1400,
+            "imgName": "2khunter.png",
+            "skills": [0.2,0.4,0.6,0.5,0.5,0.4]
+        },
+        {
+            "id": 214,
+            "name": "Mikal Bridges",
+            "price": 1400,
+            "imgName": "2kbridges.png",
+            "skills": [0.2,0.4,0.6,0.5,0.6,0.5]
+        },
+        {
+            "id": 215,
+            "name": "Andrew Wiggins",
+            "price": 1400,
+            "imgName": "2kwiggins.png",
+            "skills": [0.3,0.6,0.6,0.5,0.4,0.4]
+        },
+        {
+            "id": 216,
+            "name": "Bojan Bogdanovic",
+            "price": 1400,
+            "imgName": "2kbogdanovicbojan.png",
+            "skills": [0.2,0.7,0.5,0.4,0.3,0.4]
+        },
+        {
+            "id": 217,
+            "name": "Joe Harris",
+            "price": 1200,
+            "imgName": "2kharris.png",
+            "skills": [0.2,0.9,0.5,0.5,0.4,0.4]
+        },
+        {
+            "id": 218,
+            "name": "Kyle Kuzma",
+            "price": 1200,
+            "imgName": "2kkuzma.png",
+            "skills": [0.3,0.6,0.5,0.6,0.4,0.4]
+        },
+        {
+            "id": 219,
+            "name": "Harrison Barnes",
+            "price": 1200,
+            "imgName": "2kbarnes.png",
+            "skills": [0.4,0.8,0.6,0.6,0.4,0.6]
+        },
+        {
+            "id": 220,
+            "name": "Danny Green",
+            "price": 1200,
+            "imgName": "2kgreendanny.png",
+            "skills": [0.2,0.7,0.4,0.4,0.7,0.5]
+        }
+    ],
+    "powerforwards": [
+        {
+            "id": 301,
+            "name": "Giannis Antetokounmpo",
+            "price": 3000,
+            "imgName": "2kantetokounmpo.png",
+            "skills": [0.7,0.3,1.0,0.9,1.0,0.9]
+        },
+        {
+            "id": 302,
+            "name": "Kevin Durant",
+            "price": 2800,
+            "imgName": "2kdurant.png",
+            "skills": [0.6,0.8,0.8,0.7,0.6,0.8]
+        },
+        {
+            "id": 303,
+            "name": "Anthony Davis",
+            "price": 2500,
+            "imgName": "2kdavis.png",
+            "skills": [0.3,0.5,0.8,0.9,0.8,0.6]
+        },
+        {
+            "id": 304,
+            "name": "Zion Williamson",
+            "price": 2200,
+            "imgName": "2kwilliamson.png",
+            "skills": [0.4,0.2,0.9,0.7,0.4,0.5]
+        },
+        {
+            "id": 305,
+            "name": "Domantas Sabonis",
+            "price": 2000,
+            "imgName": "2ksabonis.png",
+            "skills": [0.6,0.3,0.8,0.9,0.7,0.5]
+        },
+        {
+            "id": 306,
+            "name": "Julius Randle",
+            "price": 2000,
+            "imgName": "2krandle.png",
+            "skills": [0.6,0.7,0.7,0.8,0.6,0.6]
+        },
+        {
+            "id": 307,
+            "name": "Tobias Harris",
+            "price": 1800,
+            "imgName": "2kharristobias.png",
+            "skills": [0.4,0.7,0.7,0.7,0.5,0.5]
+        },
+        {
+            "id": 308,
+            "name": "Pascal Siakam",
+            "price": 1800,
+            "imgName": "2ksiakam.png",
+            "skills": [0.5,0.4,0.7,0.7,0.5,0.5]
+        },
+        {
+            "id": 309,
+            "name": "John Collins",
+            "price": 1700,
+            "imgName": "2kcollins.png",
+            "skills": [0.2,0.7,0.7,0.6,0.4,0.5]
+        },
+        {
+            "id": 310,
+            "name": "Draymond Green",
+            "price": 1700,
+            "imgName": "2kgreen.png",
+            "skills": [0.8,0.3,0.5,0.6,0.8,0.7]
+        },
+        {
+            "id": 311,
+            "name": "Kevin Love",
+            "price": 1600,
+            "imgName": "2klove.png",
+            "skills": [0.3,0.7,0.4,0.7,0.4,0.6]
+        },
+        {
+            "id": 312,
+            "name": "Thaddeus Young",
+            "price": 1400,
+            "imgName": "2kyoungthaddeus.png",
+            "skills": [0.5,0.3,0.7,0.6,0.6,0.6]
+        },
+        {
+            "id": 313,
+            "name": "Aaron Gordon",
+            "price": 1400,
+            "imgName": "2kgordon.png",
+            "skills": [0.3,0.4,0.6,0.6,0.5,0.5]
+        },
+        {
+            "id": 314,
+            "name": "Carmelo Anthony",
+            "price": 1400,
+            "imgName": "2kanthony.png",
+            "skills": [0.2,0.7,0.5,0.6,0.5,0.6]
+        },
+        {
+            "id": 315,
+            "name": "Marcus Morris Sr.",
+            "price": 1300,
+            "imgName": "2kmorris.png",
+            "skills": [0.2,0.7,0.5,0.4,0.4,0.5]
+        },
+        {
+            "id": 316,
+            "name": "Lauri Markkanen",
+            "price": 1300,
+            "imgName": "2kmarkkanen.png",
+            "skills": [0.2,0.6,0.6,0.6,0.3,0.4]
+        },
+        {
+            "id": 317,
+            "name": "Kelly Olynyk",
+            "price": 1300,
+            "imgName": "2kolynyk.png",
+            "skills": [0.4,0.5,0.6,0.7,0.6,0.6]
+        },
+        {
+            "id": 318,
+            "name": "Danilo Gallinari",
+            "price": 1200,
+            "imgName": "2kgallinari.png",
+            "skills": [0.2,0.7,0.4,0.5,0.4,0.6]
+        },
+        {
+            "id": 319,
+            "name": "Eric Paschall",
+            "price": 1200,
+            "imgName": "2kpaschall.png",
+            "skills": [0.2,0.3,0.5,0.4,0.3,0.5]
+        },
+        {
+            "id": 320,
+            "name": "Blake Griffin",
+            "price": 1200,
+            "imgName": "2kgriffin.png",
+            "skills": [0.3,0.5,0.6,0.5,0.5,0.5]
+        }
+    ],
+    "centers": [
+        {
+            "id": 401,
+            "name": "Nikola Jokic",
+            "price": 2500,
+            "imgName": "2kjokic.png",
+            "skills": [0.9,0.7,0.8,0.8,0.7,0.9]
+        },
+        {
+            "id": 402,
+            "name": "Joel Embiid",
+            "price": 2400,
+            "imgName": "2kembiid.png",
+            "skills": [0.3,0.7,0.8,0.8,0.8,0.6]
+        },
+        {
+            "id": 403,
+            "name": "Rudy Gobert",
+            "price": 2100,
+            "imgName": "2kgobert.png",
+            "skills": [0.1,0.1,1.0,1.0,0.8,0.6]
+        },
+        {
+            "id": 404,
+            "name": "Karl Anthony-Towns",
+            "price": 2000,
+            "imgName": "2ktowns.png",
+            "skills": [0.4,0.7,0.7,0.8,0.5,0.4]
+        },
+        {
+            "id": 405,
+            "name": "Bam Adebayo",
+            "price": 1900,
+            "imgName": "2kadebayo.png",
+            "skills": [0.6,0.1,0.8,0.8,0.7,0.5]
+        },
+        {
+            "id": 406,
+            "name": "Christian Wood",
+            "price": 1800,
+            "imgName": "2kwood.png",
+            "skills": [0.2,0.7,0.8,0.8,0.4,0.5]
+        },
+        {
+            "id": 407,
+            "name": "Nikola Vucevic",
+            "price": 1800,
+            "imgName": "2kvucevic.png",
+            "skills": [0.4,0.7,0.8,0.9,0.5,0.5]
+        },
+        {
+            "id": 408,
+            "name": "Clint Capela",
+            "price": 1700,
+            "imgName": "2kcapela.png",
+            "skills": [0.2,0.1,0.8,1.0,0.5,0.5]
+        },
+        {
+            "id": 409,
+            "name": "Deandre Ayton",
+            "price": 1700,
+            "imgName": "2kayton.png",
+            "skills": [0.2,0.1,0.8,0.8,0.5,0.5]
+        },
+        {
+            "id": 410,
+            "name": "Andre Drummond",
+            "price": 1600,
+            "imgName": "2kdrummond.png",
+            "skills": [0.3,0.1,0.7,1.0,0.6,0.5]
+        },
+        {
+            "id": 411,
+            "name": "Jonas Valanciunas",
+            "price": 1500,
+            "imgName": "2kvalanciunas.png",
+            "skills": [0.2,0.3,0.7,0.9,0.5,0.5]
+        },
+        {
+            "id": 412,
+            "name": "Serge Ibaka",
+            "price": 1500,
+            "imgName": "2kibaka.png",
+            "skills": [0.2,0.5,0.6,0.7,0.5,0.7]
+        },
+        {
+            "id": 413,
+            "name": "Kristaps Porzingis",
+            "price": 1400,
+            "imgName": "2kporzingis.png",
+            "skills": [0.2,0.6,0.6,0.8,0.5,0.4]
+        },
+        {
+            "id": 414,
+            "name": "Jarrett Allen",
+            "price": 1400,
+            "imgName": "2kallen.png",
+            "skills": [0.2,0.2,0.7,0.8,0.5,0.5]
+        },
+        {
+            "id": 415,
+            "name": "Myles Turner",
+            "price": 1300,
+            "imgName": "2kturner.png",
+            "skills": [0.2,0.4,0.6,0.6,0.7,0.5]
+        },
+        {
+            "id": 416,
+            "name": "Montrezl Harrell",
+            "price": 1300,
+            "imgName": "2kharrell.png",
+            "skills": [0.2,0.1,0.7,0.6,0.5,0.5]
+        },
+        {
+            "id": 417,
+            "name": "Robert Williams III",
+            "price": 1200,
+            "imgName": "2kwilliamsrobert.png",
+            "skills": [0.2,0.1,0.7,0.6,0.9,0.5]
+        },
+        {
+            "id": 418,
+            "name": "Hassan Whiteside",
+            "price": 1200,
+            "imgName": "2kwhiteside.png",
+            "skills": [0.1,0.1,0.6,0.8,0.6,0.5]
+        },
+        {
+            "id": 419,
+            "name": "Brook Lopez",
+            "price": 1200,
+            "imgName": "2klopez.png",
+            "skills": [0.2,0.4,0.6,0.5,0.7,0.6]
+        },
+        {
+            "id": 420,
+            "name": "Marc Gasol",
+            "price": 1100,
+            "imgName": "2kgasol.png",
+            "skills": [0.3,0.7,0.6,0.6,0.9,0.6]
+        }
+    ]
+}
